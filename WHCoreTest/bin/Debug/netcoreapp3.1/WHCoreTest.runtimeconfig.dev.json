@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Hyrules\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Hyrules\\.nuget\\packages"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\MainForm\MainWindow.g.cs
+D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\App.g.cs
+D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\WinHue Core_MarkupCompile.cache
+D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\WinHue Core_MarkupCompile.lref
+D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\WinHue Core.csprojAssemblyReference.cache
