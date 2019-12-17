@@ -4,7 +4,7 @@
 - [Microsoft Dot Net Core 3.1](https://dotnet.microsoft.com/download) <br/>
 - [A complete Philips Hue Light system including some philips hue lights and bridge Gen 2 (square with rounded corners))](https://www2.meethue.com/en-us/products/starter-kits#filters=STARTER_KITS_SU&sliders=&support=&price=&priceBoxes=&page=&layout=12.subcategory.p-grid-icon)
 
-*** BLUETOOTH BULB WILL ONLY WORK IN STANDARD ZIGBEE MODE.
+*** BLUETOOTH BULB WILL ONLY WORK WHEN THETERED TO A BRIDGE.
 ***
 
 <b>Description :</b>
