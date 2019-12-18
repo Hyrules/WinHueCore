@@ -14,6 +14,7 @@
         "outputPath": "D:\\Desktop\\WinHue Core\\WinHue Core\\WHCoreTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "D:\\Desktop\\WinHue Core\\WinHue Core\\NuGet.Config",
           "C:\\Users\\Hyrules\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

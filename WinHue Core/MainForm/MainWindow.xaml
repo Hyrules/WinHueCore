@@ -1,12 +1,38 @@
-﻿<RibbonWindow x:Class="WinHue_Core.MainWindow"
+﻿<fluent:RibbonWindow
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WinHue_Core"
+        xmlns:resx="clr-namespace:WinHue_Core.Properties"
+        xmlns:local="clr-namespace:WinHue_Core.MainForm"
+        xmlns:fluent="urn:fluent-ribbon" x:Class="WinHue_Core.MainWindow"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="720" Width="1280" WindowStartupLocation="CenterScreen">
+    <Window.DataContext>
+        <local:MainFormViewModel/>
+    </Window.DataContext>
     <Grid>
-
+        <fluent:Ribbon>
+            <fluent:Ribbon.Menu>
+                <fluent:Backstage>
+                    <fluent:BackstageTabControl>
+                        <fluent:BackstageTabItem Header="{x:Static resx:Dictionary.BackStageApplication}"/>
+                            <WrapPanel Orientation="Horizontal">
+                                <WrapPanel Orientation="Vertical">
+                                    <fluent:Button Header="{x:Static resx:Dictionary.BackStagePair}" Foreground="Black"/>
+                                </WrapPanel>
+                            </WrapPanel>
+                        <fluent:SeparatorTabItem/>
+                        <fluent:BackstageTabItem>
+                            <fluent:Button Header="{x:Static resx:Dictionary.BackStageQuit}" Command="{Binding QuitCommand}" Foreground="White" />
+                        </fluent:BackstageTabItem>
+                        
+                    </fluent:BackstageTabControl>
+                    
+                </fluent:Backstage>
+            </fluent:Ribbon.Menu>
+            <fluent:RibbonTabItem Header="{x:Static resx:Dictionary.RibbonHome}">                
+            </fluent:RibbonTabItem>
+        </fluent:Ribbon>
     </Grid>
-</RibbonWindow>
+</fluent:RibbonWindow>

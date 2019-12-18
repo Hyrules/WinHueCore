@@ -18,7 +18,6 @@ D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\testhost.d
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
@@ -89,3 +88,4 @@ D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\obj\Debug\netcoreapp3.1\WHCoreTest
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\obj\Debug\netcoreapp3.1\WHCoreTest.csproj.CopyComplete
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\obj\Debug\netcoreapp3.1\WHCoreTest.dll
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\obj\Debug\netcoreapp3.1\WHCoreTest.pdb
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
