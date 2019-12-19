@@ -30,3 +30,4 @@ D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\WinHue_Co
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\WinHue_Core.Properties.Dictionary.fr.resources
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\fr\WinHue Core.resources.dll
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\WinHue Core.csprojAssemblyReference.cache

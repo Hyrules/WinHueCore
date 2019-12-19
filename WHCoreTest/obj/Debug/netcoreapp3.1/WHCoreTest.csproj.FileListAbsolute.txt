@@ -89,3 +89,15 @@ D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\obj\Debug\netcoreapp3.1\WHCoreTest
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\obj\Debug\netcoreapp3.1\WHCoreTest.dll
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\obj\Debug\netcoreapp3.1\WHCoreTest.pdb
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\WinHue Core.exe
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\AsyncAwaitBestPractices.dll
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\AsyncAwaitBestPractices.MVVM.dll
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\ControlzEx.dll
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\Fluent.dll
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\log4net.dll
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\Microsoft.Xaml.Behaviors.dll
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\RestSharp.dll
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\WinHue Core.dll
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\WinHue Core.pdb
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\fr\WinHue Core.resources.dll
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\obj\Debug\netcoreapp3.1\WHCoreTest.csprojAssemblyReference.cache
