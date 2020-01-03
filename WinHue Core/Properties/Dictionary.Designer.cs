@@ -61,29 +61,200 @@ namespace WinHue_Core.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Application.
+        ///   Looks up a localized string similar to Close.
         /// </summary>
-        public static string BackStageApplication {
+        public static string ButtonClose {
             get {
-                return ResourceManager.GetString("BackStageApplication", resourceCulture);
+                return ResourceManager.GetString("ButtonClose", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Detect and pair bridge....
+        ///   Looks up a localized string similar to Abort scan.
         /// </summary>
-        public static string BackStagePair {
+        public static string DetectPairBridgeAbortScan {
             get {
-                return ResourceManager.GetString("BackStagePair", resourceCulture);
+                return ResourceManager.GetString("DetectPairBridgeAbortScan", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ApiKey.
+        /// </summary>
+        public static string DetectPairBridgeApiKey {
+            get {
+                return ResourceManager.GetString("DetectPairBridgeApiKey", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to API Version.
+        /// </summary>
+        public static string DetectPairBridgeApiVersion {
+            get {
+                return ResourceManager.GetString("DetectPairBridgeApiVersion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Default.
+        /// </summary>
+        public static string DetectPairBridgeDefault {
+            get {
+                return ResourceManager.GetString("DetectPairBridgeDefault", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Find my bridge.
+        /// </summary>
+        public static string DetectPairBridgeFindBridge {
+            get {
+                return ResourceManager.GetString("DetectPairBridgeFindBridge", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bridge Info.
+        /// </summary>
+        public static string DetectPairBridgeInfo {
+            get {
+                return ResourceManager.GetString("DetectPairBridgeInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to IP.
+        /// </summary>
+        public static string DetectPairBridgeIP {
+            get {
+                return ResourceManager.GetString("DetectPairBridgeIP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to MAC.
+        /// </summary>
+        public static string DetectPairBridgeMAC {
+            get {
+                return ResourceManager.GetString("DetectPairBridgeMAC", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name.
+        /// </summary>
+        public static string DetectPairBridgeName {
+            get {
+                return ResourceManager.GetString("DetectPairBridgeName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pair.
+        /// </summary>
+        public static string DetectPairBridgePair {
+            get {
+                return ResourceManager.GetString("DetectPairBridgePair", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Scan IP.
+        /// </summary>
+        public static string DetectPairBridgeScanIp {
+            get {
+                return ResourceManager.GetString("DetectPairBridgeScanIp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Detect and Pair Bridges....
+        /// </summary>
+        public static string DetectPairBridgeTitle {
+            get {
+                return ResourceManager.GetString("DetectPairBridgeTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Scan UPNP.
+        /// </summary>
+        public static string DetectPairBridgeUpnp {
+            get {
+                return ResourceManager.GetString("DetectPairBridgeUpnp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Application.
+        /// </summary>
+        public static string MainMenuApplication {
+            get {
+                return ResourceManager.GetString("MainMenuApplication", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Quit.
         /// </summary>
-        public static string BackStageQuit {
+        public static string MainMenuQuit {
             get {
-                return ResourceManager.GetString("BackStageQuit", resourceCulture);
+                return ResourceManager.GetString("MainMenuQuit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Settings.
+        /// </summary>
+        public static string MainMenuSettings {
+            get {
+                return ResourceManager.GetString("MainMenuSettings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Detect and pair.
+        /// </summary>
+        public static string RibbonBridgePair {
+            get {
+                return ResourceManager.GetString("RibbonBridgePair", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bridge.
+        /// </summary>
+        public static string RibbonBridgePairing {
+            get {
+                return ResourceManager.GetString("RibbonBridgePairing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Selected Bridge.
+        /// </summary>
+        public static string RibbonBridgeSelected {
+            get {
+                return ResourceManager.GetString("RibbonBridgeSelected", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Settings.
+        /// </summary>
+        public static string RibbonBridgeSettings {
+            get {
+                return ResourceManager.GetString("RibbonBridgeSettings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Creators.
+        /// </summary>
+        public static string RibbonCreators {
+            get {
+                return ResourceManager.GetString("RibbonCreators", resourceCulture);
             }
         }
         

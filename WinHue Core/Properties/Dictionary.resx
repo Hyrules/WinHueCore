@@ -100,13 +100,70 @@
   <data name="RibbonHome" xml:space="preserve">
     <value>Home</value>
   </data>
-  <data name="BackStageQuit" xml:space="preserve">
+  <data name="MainMenuQuit" xml:space="preserve">
     <value>Quit</value>
   </data>
-  <data name="BackStagePair" xml:space="preserve">
-    <value>Detect and pair bridge...</value>
+  <data name="RibbonBridgePair" xml:space="preserve">
+    <value>Detect and pair</value>
   </data>
-  <data name="BackStageApplication" xml:space="preserve">
+  <data name="MainMenuApplication" xml:space="preserve">
     <value>Application</value>
+  </data>
+  <data name="RibbonBridgePairing" xml:space="preserve">
+    <value>Bridge</value>
+  </data>
+  <data name="MainMenuSettings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="RibbonBridgeSelected" xml:space="preserve">
+    <value>Selected Bridge</value>
+  </data>
+  <data name="RibbonCreators" xml:space="preserve">
+    <value>Creators</value>
+  </data>
+  <data name="RibbonBridgeSettings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="DetectPairBridgeTitle" xml:space="preserve">
+    <value>Detect and Pair Bridges...</value>
+  </data>
+  <data name="ButtonClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="DetectPairBridgePair" xml:space="preserve">
+    <value>Pair</value>
+  </data>
+  <data name="DetectPairBridgeDefault" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="DetectPairBridgeScanIp" xml:space="preserve">
+    <value>Scan IP</value>
+  </data>
+  <data name="DetectPairBridgeUpnp" xml:space="preserve">
+    <value>Scan UPNP</value>
+  </data>
+  <data name="DetectPairBridgeFindBridge" xml:space="preserve">
+    <value>Find my bridge</value>
+  </data>
+  <data name="DetectPairBridgeInfo" xml:space="preserve">
+    <value>Bridge Info</value>
+  </data>
+  <data name="DetectPairBridgeAbortScan" xml:space="preserve">
+    <value>Abort scan</value>
+  </data>
+  <data name="DetectPairBridgeMAC" xml:space="preserve">
+    <value>MAC</value>
+  </data>
+  <data name="DetectPairBridgeIP" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="DetectPairBridgeName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DetectPairBridgeApiKey" xml:space="preserve">
+    <value>ApiKey</value>
+  </data>
+  <data name="DetectPairBridgeApiVersion" xml:space="preserve">
+    <value>API Version</value>
   </data>
 </root>

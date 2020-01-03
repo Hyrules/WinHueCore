@@ -23,40 +23,16 @@
           "lib/netstandard1.0/AsyncAwaitBestPractices.MVVM.dll": {}
         }
       },
-      "ControlzEx/4.2.0": {
+      "DotNetProjects.Extended.Wpf.Toolkit/4.6.78": {
         "type": "package",
-        "dependencies": {
-          "Microsoft.Xaml.Behaviors.Wpf": "1.1.3"
-        },
         "compile": {
-          "lib/netcoreapp3.1/ControlzEx.dll": {}
+          "lib/netcoreapp3.0/DotNetProjects.Wpf.Extended.Toolkit.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/ControlzEx.dll": {}
+          "lib/netcoreapp3.0/DotNetProjects.Wpf.Extended.Toolkit.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
-        ]
-      },
-      "coverlet.collector/1.1.0": {
-        "type": "package",
-        "build": {
-          "build/netstandard1.0/coverlet.collector.targets": {}
-        }
-      },
-      "Fluent.Ribbon/7.0.1": {
-        "type": "package",
-        "dependencies": {
-          "ControlzEx": "[4.2.0, 5.0.0)"
-        },
-        "compile": {
-          "lib/netcoreapp3.0/Fluent.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/Fluent.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App"
         ]
       },
       "log4net/2.0.8": {
@@ -444,18 +420,6 @@
           }
         }
       },
-      "Microsoft.Xaml.Behaviors.Wpf/1.1.3": {
-        "type": "package",
-        "compile": {
-          "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WPF"
-        ]
-      },
       "MSTest.TestAdapter/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -575,6 +539,35 @@
         },
         "runtime": {
           "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      },
+      "Rssdp/4.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections": "4.0.11",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Diagnostics.Tools": "4.0.1",
+          "System.IO": "4.1.0",
+          "System.Linq": "4.1.0",
+          "System.Net.Http": "4.1.0",
+          "System.Net.Primitives": "4.0.11",
+          "System.Net.Sockets": "4.1.0",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime": "4.1.0",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Runtime.InteropServices.RuntimeInformation": "4.0.0",
+          "System.Text.Encoding": "4.0.11",
+          "System.Text.Encoding.Extensions": "4.0.11",
+          "System.Threading": "4.0.11",
+          "System.Threading.Tasks": "4.0.11",
+          "System.Threading.Timer": "4.0.1",
+          "System.Xml.ReaderWriter": "4.0.11"
+        },
+        "compile": {
+          "lib/netstandard13/Rssdp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard13/Rssdp.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -2160,8 +2153,9 @@
         "dependencies": {
           "AsyncAwaitBestPractices": "4.0.1",
           "AsyncAwaitBestPractices.MVVM": "4.0.1",
-          "Fluent.Ribbon": "7.0.1",
+          "DotNetProjects.Extended.Wpf.Toolkit": "4.6.78",
           "RestSharp": "106.6.10",
+          "Rssdp": "4.0.2",
           "log4net": "2.0.8"
         },
         "compile": {
@@ -2171,7 +2165,6 @@
           "bin/placeholder/WinHue Core.dll": {}
         },
         "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App",
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       }
@@ -2206,79 +2199,17 @@
         "lib/netstandard1.0/AsyncAwaitBestPractices.MVVM.xml"
       ]
     },
-    "ControlzEx/4.2.0": {
-      "sha512": "yZJ8a7L1txNZfEfDLRKl5bLHdmmuK7Gmg2h8NxyuEQcSGeLKG2XsMXAgVCvmGrwLcduqSx+fFWqoDPLk0g9BLQ==",
+    "DotNetProjects.Extended.Wpf.Toolkit/4.6.78": {
+      "sha512": "5gMefW3Byn8trdTheUCaOmS1/Ut1D7nW0pBJQciLol3UQ/68an4WAICSKtRS/YO9rGNeDLMM+jrDYEoHR/3LLA==",
       "type": "package",
-      "path": "controlzex/4.2.0",
+      "path": "dotnetprojects.extended.wpf.toolkit/4.6.78",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "controlzex.4.2.0.nupkg.sha512",
-        "controlzex.nuspec",
-        "lib/net45/ControlzEx.dll",
-        "lib/net45/ControlzEx.pdb",
-        "lib/net45/ControlzEx.xml",
-        "lib/net462/ControlzEx.dll",
-        "lib/net462/ControlzEx.pdb",
-        "lib/net462/ControlzEx.xml",
-        "lib/netcoreapp3.0/ControlzEx.dll",
-        "lib/netcoreapp3.0/ControlzEx.pdb",
-        "lib/netcoreapp3.0/ControlzEx.xml",
-        "lib/netcoreapp3.1/ControlzEx.dll",
-        "lib/netcoreapp3.1/ControlzEx.pdb",
-        "lib/netcoreapp3.1/ControlzEx.xml",
-        "logo-mini.png"
-      ]
-    },
-    "coverlet.collector/1.1.0": {
-      "sha512": "OBxWQ4vNm+kVvKy8NTk6skRNMQCeQLqSqJ0xq19S0GLovHYTnVTcsjYgV54t6LnjjQ6mDADMcFvHMQHLoNQhIg==",
-      "type": "package",
-      "path": "coverlet.collector/1.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/netstandard1.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "build/netstandard1.0/Microsoft.Extensions.DependencyInjection.dll",
-        "build/netstandard1.0/Microsoft.Extensions.FileSystemGlobbing.dll",
-        "build/netstandard1.0/Microsoft.TestPlatform.CoreUtilities.dll",
-        "build/netstandard1.0/Microsoft.TestPlatform.PlatformAbstractions.dll",
-        "build/netstandard1.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll",
-        "build/netstandard1.0/Mono.Cecil.Mdb.dll",
-        "build/netstandard1.0/Mono.Cecil.Pdb.dll",
-        "build/netstandard1.0/Mono.Cecil.Rocks.dll",
-        "build/netstandard1.0/Mono.Cecil.dll",
-        "build/netstandard1.0/Newtonsoft.Json.dll",
-        "build/netstandard1.0/System.Xml.XPath.XmlDocument.dll",
-        "build/netstandard1.0/coverlet.collector.deps.json",
-        "build/netstandard1.0/coverlet.collector.dll",
-        "build/netstandard1.0/coverlet.collector.pdb",
-        "build/netstandard1.0/coverlet.collector.targets",
-        "build/netstandard1.0/coverlet.core.dll",
-        "build/netstandard1.0/coverlet.core.pdb",
-        "coverlet.collector.1.1.0.nupkg.sha512",
-        "coverlet.collector.nuspec"
-      ]
-    },
-    "Fluent.Ribbon/7.0.1": {
-      "sha512": "UV1zs+bzYI+HtsrWtwN5sZqp5H+3QnOuS+fBBGY7ZKC8HTeDV/HlJPUvhMcPmb7rH31tWbM2kn7WAj0N3zNARg==",
-      "type": "package",
-      "path": "fluent.ribbon/7.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Logo.png",
-        "fluent.ribbon.7.0.1.nupkg.sha512",
-        "fluent.ribbon.nuspec",
-        "lib/net45/Fluent.dll",
-        "lib/net45/Fluent.pdb",
-        "lib/net45/Fluent.xml",
-        "lib/net462/Fluent.dll",
-        "lib/net462/Fluent.pdb",
-        "lib/net462/Fluent.xml",
-        "lib/netcoreapp3.0/Fluent.dll",
-        "lib/netcoreapp3.0/Fluent.pdb",
-        "lib/netcoreapp3.0/Fluent.xml",
-        "license/License.txt"
+        "dotnetprojects.extended.wpf.toolkit.4.6.78.nupkg.sha512",
+        "dotnetprojects.extended.wpf.toolkit.nuspec",
+        "lib/net40/DotNetProjects.Wpf.Extended.Toolkit.dll",
+        "lib/netcoreapp3.0/DotNetProjects.Wpf.Extended.Toolkit.dll"
       ]
     },
     "log4net/2.0.8": {
@@ -2739,23 +2670,6 @@
         "runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll"
       ]
     },
-    "Microsoft.Xaml.Behaviors.Wpf/1.1.3": {
-      "sha512": "Nj5tRPkKQpIFg7HcXzV1P/1CLk1NtkoJLE0IMKCHZfKMiBWdy6TssdOUT2OHw8L4eKP65lG+OElNR3xdaeW+gQ==",
-      "type": "package",
-      "path": "microsoft.xaml.behaviors.wpf/1.1.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net45/Microsoft.Xaml.Behaviors.dll",
-        "lib/net45/Microsoft.Xaml.Behaviors.pdb",
-        "lib/net45/Microsoft.Xaml.Behaviors.xml",
-        "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.dll",
-        "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.pdb",
-        "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.xml",
-        "microsoft.xaml.behaviors.wpf.1.1.3.nupkg.sha512",
-        "microsoft.xaml.behaviors.wpf.nuspec"
-      ]
-    },
     "MSTest.TestAdapter/2.0.0": {
       "sha512": "VoXDhx+a/44RmQYpkrYWe3D6AP6kjqibe02NOj1t8Zn9uo8e90gXW22SYj3geEwNTcEdMg2XMq0SI2P0Fl2Trw==",
       "type": "package",
@@ -2990,6 +2904,37 @@
         "lib/netstandard2.0/RestSharp.xml",
         "restsharp.106.6.10.nupkg.sha512",
         "restsharp.nuspec"
+      ]
+    },
+    "Rssdp/4.0.2": {
+      "sha512": "2RfdhVWWBL/OlItpjifa+oDPa7SkURcrdZmTIf0iwgZVEV/L3GGg2/UDs1IbqkOwD6IYuXF4fPhRM8QsAsa1kw==",
+      "type": "package",
+      "path": "rssdp/4.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Xamarin.iOS10/Rssdp.dll",
+        "lib/Xamarin.iOS10/Rssdp.xml",
+        "lib/monoandroid/Rssdp.dll",
+        "lib/monoandroid/Rssdp.xml",
+        "lib/net40/Rssdp.dll",
+        "lib/net40/Rssdp.xml",
+        "lib/net45/Rssdp.dll",
+        "lib/net45/Rssdp.xml",
+        "lib/netcore451/Rssdp.dll",
+        "lib/netcore451/Rssdp.xml",
+        "lib/netstandard13/Rssdp.dll",
+        "lib/netstandard13/Rssdp.xml",
+        "lib/portable-net45+win+wpa81+wp80/Rssdp.dll",
+        "lib/portable-net45+win+wpa81+wp80/Rssdp.xml",
+        "lib/uap10.0/Rssdp.dll",
+        "lib/uap10.0/Rssdp.xml",
+        "lib/wp8/Rssdp.dll",
+        "lib/wp8/Rssdp.xml",
+        "lib/wpa81/Rssdp.dll",
+        "lib/wpa81/Rssdp.xml",
+        "rssdp.4.0.2.nupkg.sha512",
+        "rssdp.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -7098,7 +7043,7 @@
       "MSTest.TestFramework >= 2.0.0",
       "Microsoft.NET.Test.Sdk >= 16.4.0",
       "WinHue Core >= 1.0.0",
-      "coverlet.collector >= 1.1.0"
+      "log4net >= 2.0.8"
     ]
   },
   "packageFolders": {
@@ -7155,11 +7100,9 @@
             "target": "Package",
             "version": "[16.4.0, )"
           },
-          "coverlet.collector": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
+          "log4net": {
             "target": "Package",
-            "version": "[1.1.0, )"
+            "version": "[2.0.8, )"
           }
         },
         "imports": [
@@ -7175,9 +7118,6 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
-          },
-          "Microsoft.WindowsDesktop.App": {
-            "privateAssets": "none"
           },
           "Microsoft.WindowsDesktop.App.WPF": {
             "privateAssets": "none"

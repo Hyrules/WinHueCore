@@ -7,6 +7,7 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.Json.Serialization;
+using System.Windows;
 
 namespace WinHue_Core.MVVM
 {
@@ -76,7 +77,11 @@ namespace WinHue_Core.MVVM
         protected virtual void RaisePropertyChanged([CallerMemberName] string propertyName = null)
         {
             IsChanged = true;
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+            if (!Application.Current.Dispatcher.CheckAccess())
+                Application.Current.Dispatcher.Invoke(() => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName)));
+
+            else
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

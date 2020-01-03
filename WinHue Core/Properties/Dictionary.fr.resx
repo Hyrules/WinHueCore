@@ -120,13 +120,70 @@
   <data name="RibbonHome" xml:space="preserve">
     <value>Accueil</value>
   </data>
-  <data name="BackStageQuit" xml:space="preserve">
+  <data name="MainMenuQuit" xml:space="preserve">
     <value>Quitter</value>
   </data>
-  <data name="BackStagePair" xml:space="preserve">
-    <value>Détecter et associer une passerelle...</value>
+  <data name="RibbonBridgePair" xml:space="preserve">
+    <value>Détecter et associer</value>
   </data>
-  <data name="BackStageApplication" xml:space="preserve">
+  <data name="MainMenuApplication" xml:space="preserve">
     <value>Application</value>
+  </data>
+  <data name="RibbonBridgePairing" xml:space="preserve">
+    <value>Passerelle</value>
+  </data>
+  <data name="MainMenuSettings" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="RibbonBridgeSelected" xml:space="preserve">
+    <value>Passerelle sélectionnée</value>
+  </data>
+  <data name="RibbonCreators" xml:space="preserve">
+    <value>Createurs</value>
+  </data>
+  <data name="RibbonBridgeSettings" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="DetectPairBridgeTitle" xml:space="preserve">
+    <value>Détecter et associer les passerelles...</value>
+  </data>
+  <data name="ButtonClose" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="DetectPairBridgePair" xml:space="preserve">
+    <value>Associer</value>
+  </data>
+  <data name="DetectPairBridgeDefault" xml:space="preserve">
+    <value>Par Defaut</value>
+  </data>
+  <data name="DetectPairBridgeScanIp" xml:space="preserve">
+    <value>Balayage IP</value>
+  </data>
+  <data name="DetectPairBridgeUpnp" xml:space="preserve">
+    <value>Balayage UPNP</value>
+  </data>
+  <data name="DetectPairBridgeFindBridge" xml:space="preserve">
+    <value>Trouver ma passerelle</value>
+  </data>
+  <data name="DetectPairBridgeInfo" xml:space="preserve">
+    <value>Info Passerelle</value>
+  </data>
+  <data name="DetectPairBridgeAbortScan" xml:space="preserve">
+    <value>Annuler le balayage</value>
+  </data>
+  <data name="DetectPairBridgeMAC" xml:space="preserve">
+    <value>MAC</value>
+  </data>
+  <data name="DetectPairBridgeIP" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="DetectPairBridgeName" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="DetectPairBridgeApiKey" xml:space="preserve">
+    <value>Clé API</value>
+  </data>
+  <data name="DetectPairBridgeApiVersion" xml:space="preserve">
+    <value>VErsion API</value>
   </data>
 </root>

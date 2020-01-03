@@ -59,5 +59,25 @@ namespace WinHue_Core.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] bridgeAdd {
+            get {
+                object obj = ResourceManager.GetObject("bridgeAdd", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] settings {
+            get {
+                object obj = ResourceManager.GetObject("settings", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }

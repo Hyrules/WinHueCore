@@ -7,6 +7,14 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Functions\BridgeFindPair\Form_BridgePairing.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Functions\BridgeFindPair\Form_BridgePairing.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainForm\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>

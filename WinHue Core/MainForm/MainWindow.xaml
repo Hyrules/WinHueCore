@@ -1,38 +1,41 @@
-﻿<fluent:RibbonWindow
+﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:resx="clr-namespace:WinHue_Core.Properties"
         xmlns:local="clr-namespace:WinHue_Core.MainForm"
-        xmlns:fluent="urn:fluent-ribbon" x:Class="WinHue_Core.MainWindow"
+        xmlns:mahapps="http://metro.mahapps.com/winfx/xaml/controls"
+        x:Class="WinHue_Core.MainWindow"
         mc:Ignorable="d"
-        Title="MainWindow" Height="720" Width="1280" WindowStartupLocation="CenterScreen">
+        Title="MainWindow" Height="720" Width="1280" WindowStartupLocation="CenterScreen" >
     <Window.DataContext>
         <local:MainFormViewModel/>
     </Window.DataContext>
     <Grid>
-        <fluent:Ribbon>
-            <fluent:Ribbon.Menu>
-                <fluent:Backstage>
-                    <fluent:BackstageTabControl>
-                        <fluent:BackstageTabItem Header="{x:Static resx:Dictionary.BackStageApplication}"/>
-                            <WrapPanel Orientation="Horizontal">
-                                <WrapPanel Orientation="Vertical">
-                                    <fluent:Button Header="{x:Static resx:Dictionary.BackStagePair}" Foreground="Black"/>
-                                </WrapPanel>
-                            </WrapPanel>
-                        <fluent:SeparatorTabItem/>
-                        <fluent:BackstageTabItem>
-                            <fluent:Button Header="{x:Static resx:Dictionary.BackStageQuit}" Command="{Binding QuitCommand}" Foreground="White" />
-                        </fluent:BackstageTabItem>
-                        
-                    </fluent:BackstageTabControl>
+        <Ribbon BorderBrush="#FF9A9A9A" Background="#FFCBCBCB">
+            <Ribbon.ApplicationMenu>
+                <RibbonApplicationMenu Label="test" Background="#FF4A4A4A" BorderBrush="#FF545454" >
+                    <RibbonApplicationMenuItem Header="{x:Static resx:Dictionary.MainMenuSettings}"/>
+                    <RibbonSeparator/>
+                    <RibbonApplicationMenuItem Header="{x:Static resx:Dictionary.MainMenuQuit}" Command="{Binding QuitCommand}"/>
+                </RibbonApplicationMenu>
+            </Ribbon.ApplicationMenu>
+            <RibbonTab Header="{x:Static resx:Dictionary.RibbonHome}">
+                <RibbonGroup Header="{x:Static resx:Dictionary.RibbonBridgePairing}" >
+                    <RibbonButton Label="{x:Static resx:Dictionary.RibbonBridgePair}" Command="{Binding DetectAndPairBridgeCommand}" SmallImageSource="/Resources/bridgeAdd.png" LargeImageSource="/Resources/bridgeAdd.png" Foreground="Black" />
+                    <RibbonButton Label="{x:Static resx:Dictionary.RibbonBridgeSettings}" LargeImageSource="/Resources/settings.png"/>
+                    <RibbonComboBox Label="{x:Static resx:Dictionary.RibbonBridgeSelected}"/>
                     
-                </fluent:Backstage>
-            </fluent:Ribbon.Menu>
-            <fluent:RibbonTabItem Header="{x:Static resx:Dictionary.RibbonHome}">                
-            </fluent:RibbonTabItem>
-        </fluent:Ribbon>
+                </RibbonGroup>
+
+            </RibbonTab>
+            <RibbonTab Header="{x:Static resx:Dictionary.RibbonCreators}">
+                
+            </RibbonTab>
+            <DockPanel LastChildFill="False"/>
+
+        </Ribbon>
+
     </Grid>
-</fluent:RibbonWindow>
+</Window>

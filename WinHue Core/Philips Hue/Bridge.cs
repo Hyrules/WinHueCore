@@ -5,6 +5,7 @@ using WinHue_Core.MVVM;
 using System.ComponentModel;
 using System.Runtime.Serialization;
 using System.Threading.Tasks;
+using System.Net;
 
 namespace WinHue_Core.Philips_Hue
 {
@@ -21,7 +22,7 @@ namespace WinHue_Core.Philips_Hue
         private string _modelId;
         private string _starterKitId;
         private string _datastoreversion;
-
+        private IPAddress _ipAddress;
 
         public Bridge()
         {

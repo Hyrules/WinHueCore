@@ -4,6 +4,7 @@
              xmlns:local="clr-namespace:WinHue_Core"
              StartupUri="MainForm\MainWindow.xaml">
     <Application.Resources>
-        <ResourceDictionary Source="pack://application:,,,/Fluent;Component/Themes/Generic.xaml" />
+
     </Application.Resources>
+    
 </Application>

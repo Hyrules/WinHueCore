@@ -1,33 +1,34 @@
+D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\Functions\BridgeFindPair\Form_BridgePairing.g.cs
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\MainForm\MainWindow.g.cs
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\App.g.cs
+D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\WinHue Core_MarkupCompile.cache
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\WinHue Core_MarkupCompile.lref
+D:\Desktop\WinHue Core\WinHue Core\WinHue Core\bin\Debug\netcoreapp3.1\log4net.config
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\bin\Debug\netcoreapp3.1\WinHue Core.exe
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\bin\Debug\netcoreapp3.1\WinHue Core.deps.json
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\bin\Debug\netcoreapp3.1\WinHue Core.runtimeconfig.json
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\bin\Debug\netcoreapp3.1\WinHue Core.runtimeconfig.dev.json
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\bin\Debug\netcoreapp3.1\WinHue Core.dll
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\bin\Debug\netcoreapp3.1\WinHue Core.pdb
+D:\Desktop\WinHue Core\WinHue Core\WinHue Core\bin\Debug\netcoreapp3.1\fr\WinHue Core.resources.dll
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\bin\Debug\netcoreapp3.1\AsyncAwaitBestPractices.dll
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\bin\Debug\netcoreapp3.1\AsyncAwaitBestPractices.MVVM.dll
-D:\Desktop\WinHue Core\WinHue Core\WinHue Core\bin\Debug\netcoreapp3.1\ControlzEx.dll
-D:\Desktop\WinHue Core\WinHue Core\WinHue Core\bin\Debug\netcoreapp3.1\Fluent.dll
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\bin\Debug\netcoreapp3.1\log4net.dll
-D:\Desktop\WinHue Core\WinHue Core\WinHue Core\bin\Debug\netcoreapp3.1\Microsoft.Xaml.Behaviors.dll
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\bin\Debug\netcoreapp3.1\RestSharp.dll
-D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\App.baml
+D:\Desktop\WinHue Core\WinHue Core\WinHue Core\bin\Debug\netcoreapp3.1\Rssdp.dll
+D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\Functions\BridgeFindPair\Form_BridgePairing.baml
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\MainForm\MainWindow.baml
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\WinHue Core.g.resources
+D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\WinHue_Core.Properties.Dictionary.resources
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\WinHue_Core.Properties.Resources.resources
+D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\WinHue_Core.Properties.Dictionary.fr.resources
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\WinHue Core.csproj.GenerateResource.cache
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\WinHue Core.AssemblyInfoInputs.cache
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\WinHue Core.AssemblyInfo.cs
+D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\fr\WinHue Core.resources.dll
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\WinHue Core.csproj.CopyComplete
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\WinHue Core.dll
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\WinHue Core.pdb
-D:\Desktop\WinHue Core\WinHue Core\WinHue Core\bin\Debug\netcoreapp3.1\fr\WinHue Core.resources.dll
-D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\WinHue_Core.Properties.Dictionary.resources
-D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\WinHue_Core.Properties.Dictionary.fr.resources
-D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\fr\WinHue Core.resources.dll
-D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+D:\Desktop\WinHue Core\WinHue Core\WinHue Core\bin\Debug\netcoreapp3.1\DotNetProjects.Wpf.Extended.Toolkit.dll
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\obj\Debug\netcoreapp3.1\WinHue Core.csprojAssemblyReference.cache

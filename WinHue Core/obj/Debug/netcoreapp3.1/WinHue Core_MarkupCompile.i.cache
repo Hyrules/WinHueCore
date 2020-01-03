@@ -1,5 +1,5 @@
 ﻿WinHue Core
-
+1.0.30.0
 
 winexe
 C#
@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 D:\Desktop\WinHue Core\WinHue Core\WinHue Core\App.xaml
-1-2083364158
+2-781470116
 
-13-891905436
-206-1872797164
-MainForm\MainWindow.xaml;
+27-1692911510
+198529956749
+Functions\BridgeFindPair\Form_BridgePairing.xaml;MainForm\MainWindow.xaml;
 
-False
+True
 

@@ -1,3 +1,8 @@
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\obj\Debug\netcoreapp3.1\WHCoreTest.AssemblyInfoInputs.cache
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\obj\Debug\netcoreapp3.1\WHCoreTest.AssemblyInfo.cs
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\obj\Debug\netcoreapp3.1\WHCoreTest.csprojAssemblyReference.cache
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\log4net.config
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\WinHue Core.exe
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -6,6 +11,9 @@ D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\WHCoreTest
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\WHCoreTest.runtimeconfig.dev.json
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\WHCoreTest.dll
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\WHCoreTest.pdb
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\AsyncAwaitBestPractices.dll
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\AsyncAwaitBestPractices.MVVM.dll
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\log4net.dll
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
@@ -18,6 +26,9 @@ D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\testhost.d
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\RestSharp.dll
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\Rssdp.dll
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
@@ -83,21 +94,10 @@ D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\zh-Hans\Mi
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\obj\Debug\netcoreapp3.1\WHCoreTest.AssemblyInfoInputs.cache
-D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\obj\Debug\netcoreapp3.1\WHCoreTest.AssemblyInfo.cs
-D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\obj\Debug\netcoreapp3.1\WHCoreTest.csproj.CopyComplete
-D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\obj\Debug\netcoreapp3.1\WHCoreTest.dll
-D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\obj\Debug\netcoreapp3.1\WHCoreTest.pdb
-D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
-D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\WinHue Core.exe
-D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\AsyncAwaitBestPractices.dll
-D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\AsyncAwaitBestPractices.MVVM.dll
-D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\ControlzEx.dll
-D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\Fluent.dll
-D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\log4net.dll
-D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\Microsoft.Xaml.Behaviors.dll
-D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\RestSharp.dll
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\WinHue Core.dll
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\WinHue Core.pdb
 D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\fr\WinHue Core.resources.dll
-D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\obj\Debug\netcoreapp3.1\WHCoreTest.csprojAssemblyReference.cache
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\obj\Debug\netcoreapp3.1\WHCoreTest.csproj.CopyComplete
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\obj\Debug\netcoreapp3.1\WHCoreTest.dll
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\obj\Debug\netcoreapp3.1\WHCoreTest.pdb
+D:\Desktop\WinHue Core\WinHue Core\WHCoreTest\bin\Debug\netcoreapp3.1\DotNetProjects.Wpf.Extended.Toolkit.dll
