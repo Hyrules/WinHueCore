@@ -63,6 +63,7 @@ namespace WinHue_Core.Philips_Hue.Messages
                     {
                         PutSuccess put = new PutSuccess(element[0].GetString(),element[1].GetString());
                         response.Success.Add(put);
+                        // *test
                     }
 
                 }
