@@ -7,6 +7,8 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Text.Json;
 using WinHue_Core.Philips_Hue.Messages.Success;
+using System.Linq;
+using System.Text.Json.Serialization;
 
 namespace WinHue_Core.Philips_Hue.Messages
 {
@@ -61,9 +63,16 @@ namespace WinHue_Core.Philips_Hue.Messages
                     }
                     else
                     {
-                        PutSuccess put = new PutSuccess(element[0].GetString(),element[1].GetString());
+                        string elstr = element.GetRawText();
+                        elstr = elstr.Replace("{", "");
+                        elstr = elstr.Replace("}", "");
+                        elstr = elstr.Replace("\"", "");
+                        string[] arr = elstr.Split(':');
+
+                        if (arr.Length != 2) continue;
+                        PutSuccess put = new PutSuccess(arr[0],arr[1]);
                         response.Success.Add(put);
-                        // *test
+                        
                     }
 
                 }

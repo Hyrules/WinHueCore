@@ -5,6 +5,8 @@ using System.Threading;
 using System.Threading.Tasks;
 using RestSharp;
 using WinHue_Core.Philips_Hue.Comms;
+using WinHue_Core.Philips_Hue.Messages;
+
 namespace WinHue_Core.Philips_Hue.Comms
 {
     public static class Communication
@@ -51,6 +53,20 @@ namespace WinHue_Core.Philips_Hue.Comms
             return result;
         }
 
+        public static async Task<IRestResponse> SendRequestAsyncTask(string url, Method requesttype, int timeout = 5000, CancellationToken token = new CancellationToken())
+        {
+            RestRequest request = new RestRequest(url, requesttype)
+            {
+                RequestFormat = DataFormat.Json,
+                Timeout = timeout
+            };
+
+            request.AddHeader("Content-Type", "application/json");
+            IRestResponse result = await _client.ExecuteTaskAsync(request, token);
+
+            return result;
+        }
+
         public static IRestResponse<T> SendRequest<T>(string url, Method requesttype, int timeout = 5000) where T: new()
         {
             RestRequest request = new RestRequest(url, requesttype)
@@ -74,5 +90,25 @@ namespace WinHue_Core.Philips_Hue.Comms
             return response.Data;
 
         }
+
+        public async static Task<HueResponse> Put(string url, int timeout = 5000)
+        {
+            IRestResponse response = await SendRequestAsyncTask(url, Method.PUT, timeout);
+            return HueResponse.Parse(response.Content);
+        }
+
+        public async static Task<HueResponse> Post(string url, int timeout = 5000)
+        {
+            IRestResponse response = await SendRequestAsyncTask(url, Method.POST, timeout);
+            return HueResponse.Parse(response.Content);
+        }
+
+        public async static Task<HueResponse> Delete(string url, int timeout = 5000)
+        {
+            IRestResponse response = await SendRequestAsyncTask(url, Method.DELETE, timeout);
+            return HueResponse.Parse(response.Content);
+
+        }
+
     }
 }
