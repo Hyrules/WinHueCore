@@ -23,7 +23,6 @@ namespace WinHue_Core.Philips_Hue
 
         private const string BRIDGE_MODELID = "BSB002";
         private const string BRIDGE_APIVERSION = "1.35.0";
-      
 
         static Hue()
         {
@@ -187,6 +186,7 @@ namespace WinHue_Core.Philips_Hue
 
             return output;
         }
+
 
     }
 }

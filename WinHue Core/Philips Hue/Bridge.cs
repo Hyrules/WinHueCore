@@ -10,7 +10,7 @@ using System.Net;
 namespace WinHue_Core.Philips_Hue
 {
 
-    public class Bridge : ViewModelBase, IHueObject
+    public class Bridge : ViewModelBase
     {
         private string _name;
         private string _swversion;

@@ -77,6 +77,10 @@ namespace WinHue_Core.MVVM
         protected virtual void RaisePropertyChanged([CallerMemberName] string propertyName = null)
         {
             IsChanged = true;
+
+            // REQUIRED TO AVOID TEST ERROR BECAUSE APPLICATION.CURRENT IS NULL WHEN TESTING
+            if (Application.Current == null) { PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName)); return; }
+
             if (!Application.Current.Dispatcher.CheckAccess())
                 Application.Current.Dispatcher.Invoke(() => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName)));
 

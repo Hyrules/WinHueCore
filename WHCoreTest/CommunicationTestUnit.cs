@@ -8,9 +8,9 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using WinHue_Core.Philips_Hue;
-using WinHue_Core.Philips_Hue.LightObject;
 using WinHue_Core.Philips_Hue.Comms;
 using WinHue_Core.Philips_Hue.Messages;
+using WinHue_Core.Philips_Hue.BaseObjects;
 
 namespace WHCoreTest
 {
@@ -61,6 +61,24 @@ namespace WHCoreTest
             
         }
 
+
+        [TestMethod]
+        public async Task TestSendAsyncValidObject()
+        {
+            try
+            {
+                Light light = await Communication.Get<Light>("http://192.168.5.30/api/30jodHoH6BvouvzmGR-Y8nJfa0XTN1j8sz2tstYJ/lights/2");
+                Assert.IsTrue(light.Name == "Bloom", "Light name not expected");
+            }
+            catch (HueGetErrorException e)
+            {
+                Assert.Fail("Exception triggered");
+                
+            }
+
+        }
+
+        
 
     }
 }
