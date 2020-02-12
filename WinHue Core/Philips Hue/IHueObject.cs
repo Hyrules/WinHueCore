@@ -14,5 +14,7 @@ namespace WinHue_Core.Philips_Hue
         public string Id { get; set; }
 
         public ImageSource Image { get; set; }
+
+
     }
 }

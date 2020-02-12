@@ -5,8 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>WinHue_Core</RootNamespace>
     <UseWPF>true</UseWPF>
-    <AssemblyVersion>1.0.45.0</AssemblyVersion>
-    <FileVersion>1.0.45.0</FileVersion>
+    <AssemblyVersion>1.0.60.0</AssemblyVersion>
+    <FileVersion>1.0.60.0</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -28,6 +28,7 @@
     <PackageReference Include="AsyncAwaitBestPractices.MVVM" Version="4.0.1" />
     <PackageReference Include="DotNetProjects.Extended.Wpf.Toolkit" Version="4.6.78" />
     <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="RestSharp" Version="106.6.10" />
     <PackageReference Include="Rssdp" Version="4.0.2" />
   </ItemGroup>

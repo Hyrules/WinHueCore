@@ -11,6 +11,7 @@ using WinHue_Core.Philips_Hue;
 using WinHue_Core.Philips_Hue.Comms;
 using WinHue_Core.Philips_Hue.Messages;
 using WinHue_Core.Philips_Hue.BaseObjects;
+using WinHue_Core.Utils;
 
 namespace WHCoreTest
 {
@@ -51,7 +52,7 @@ namespace WHCoreTest
         {
             try
             {
-                Light light = await Communication.Get<Light>("http://192.168.5.30/api/30jodHoH6BvouvzmGR-Y8nJfa0XTN1j8sz2tstYJ/lights/99");
+                HueObject light = await Communication.Get("http://192.168.5.30/api/30jodHoH6BvouvzmGR-Y8nJfa0XTN1j8sz2tstYJ/lights/99");
                 Assert.Fail("Exception not triggered");
             }
             catch(HueGetErrorException e)
@@ -67,8 +68,8 @@ namespace WHCoreTest
         {
             try
             {
-                Light light = await Communication.Get<Light>("http://192.168.5.30/api/30jodHoH6BvouvzmGR-Y8nJfa0XTN1j8sz2tstYJ/lights/2");
-                Assert.IsTrue(light.Name == "Bloom", "Light name not expected");
+                dynamic light = await Communication.Get("http://192.168.5.30/api/30jodHoH6BvouvzmGR-Y8nJfa0XTN1j8sz2tstYJ/lights/2");
+                Assert.IsTrue(light.name == "Bloom", "Light name not expected");
             }
             catch (HueGetErrorException e)
             {

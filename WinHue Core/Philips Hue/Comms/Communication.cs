@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using RestSharp;
 using WinHue_Core.Philips_Hue.Comms;
 using WinHue_Core.Philips_Hue.Messages;
+using WinHue_Core.Utils;
 
 namespace WinHue_Core.Philips_Hue.Comms
 {
@@ -82,12 +85,21 @@ namespace WinHue_Core.Philips_Hue.Comms
 
         }
 
-        public async static Task<T> Get<T>(string url, int timeout = 5000)
+        public async static Task<HueObject> Get(string url, int timeout = 5000)
         {
-            IRestResponse<T> response = await SendRequestAsyncTask<T>(url, Method.GET, timeout);
-            if (response.Data is null)
-                throw new HueGetErrorException("Error in get method", response.Content);
-            return response.Data;
+            IRestResponse response = await SendRequestAsyncTask(url, Method.GET, timeout);
+            try
+            {
+                HueObject result = JsonConvert.DeserializeObject<HueObject>(response.Content);
+                    //JObject.Parse(response.Content);
+
+                return result;
+            }
+            catch(Exception e)
+            {
+                throw new HueGetErrorException("Error parsing jobject. Most likely received an error message from the bridge.", response.Content, e.InnerException);
+            }
+            
 
         }
 
