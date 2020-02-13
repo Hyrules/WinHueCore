@@ -48,11 +48,11 @@ namespace WHCoreTest
         }
 
         [TestMethod]
-        public async Task TestSendAsyncInvalidObject()
+        public async Task TestGetInvalidObject()
         {
             try
             {
-                HueObject light = await Communication.Get("http://192.168.5.30/api/30jodHoH6BvouvzmGR-Y8nJfa0XTN1j8sz2tstYJ/lights/99");
+                HueObject light = await Communication.GetObject("http://192.168.5.30/api/30jodHoH6BvouvzmGR-Y8nJfa0XTN1j8sz2tstYJ/lights/99");
                 Assert.Fail("Exception not triggered");
             }
             catch(HueGetErrorException e)
@@ -64,11 +64,12 @@ namespace WHCoreTest
 
 
         [TestMethod]
-        public async Task TestSendAsyncValidObject()
+        public async Task TestGetObject()
         {
             try
             {
-                dynamic light = await Communication.Get("http://192.168.5.30/api/30jodHoH6BvouvzmGR-Y8nJfa0XTN1j8sz2tstYJ/lights/2");
+                dynamic light = await Communication.GetObject("http://192.168.5.30/api/30jodHoH6BvouvzmGR-Y8nJfa0XTN1j8sz2tstYJ/lights/2");
+                
                 Assert.IsTrue(light.name == "Bloom", "Light name not expected");
             }
             catch (HueGetErrorException e)
@@ -77,6 +78,20 @@ namespace WHCoreTest
                 
             }
 
+        }
+
+        [TestMethod]
+        public async Task TestGetListObjects()
+        {
+            try
+            {
+                List<dynamic> listlights = await Communication.GetListObjects("http://192.168.5.30/api/30jodHoH6BvouvzmGR-Y8nJfa0XTN1j8sz2tstYJ/lights");
+                Assert.IsTrue(listlights.Count != 0, "List lights is empty");
+            }
+            catch(HueGetErrorException e)
+            {
+                Assert.Fail("Exception triggered");
+            }
         }
 
         

@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Dynamic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using System.Windows.Media;
 
@@ -13,6 +14,9 @@ namespace WinHue_Core.Utils
 
     public class HueObject : DynamicObject, ICustomTypeDescriptor, INotifyPropertyChanged
     {
+        private string _id;
+        private ImageSource _image;
+        
         private readonly Object thisLock = new Object();
         public event PropertyChangedEventHandler PropertyChanged;
         private Dictionary<string, object> dictionary = new Dictionary<string, object>();
@@ -27,6 +31,35 @@ namespace WinHue_Core.Utils
         {
             syncronzeInvoke = value;
         }
+
+        [JsonIgnore]
+        public string Id
+        {
+            get 
+            {
+                return _id;
+            }
+            set
+            {
+                _id = value;
+                OnPropertyChanged(nameof(Id));
+            }
+        }
+
+        [JsonIgnore]
+        public ImageSource Image
+        {
+            get
+            {
+                return _image;
+            }
+            set
+            {
+                _image = value;
+                OnPropertyChanged(nameof(Image));
+            }
+        }
+
         public object this[string name]
         {
             get
@@ -46,6 +79,7 @@ namespace WinHue_Core.Utils
                     OnPropertyChanged(name);
             }
         }
+        
         private void OnPropertyChanged(string name)
         {
             var handler = PropertyChanged;
