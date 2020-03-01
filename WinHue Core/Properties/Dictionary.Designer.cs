@@ -106,11 +106,38 @@ namespace WinHue_Core.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Detect and Pair.
+        /// </summary>
+        public static string DetectPairBridgeDPBHeader {
+            get {
+                return ResourceManager.GetString("DetectPairBridgeDPBHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Find my bridge.
         /// </summary>
         public static string DetectPairBridgeFindBridge {
             get {
                 return ResourceManager.GetString("DetectPairBridgeFindBridge", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Scan Portal.
+        /// </summary>
+        public static string DetectPairBridgeFindPortal {
+            get {
+                return ResourceManager.GetString("DetectPairBridgeFindPortal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to * Right-click on the bridge list for context menu.
+        /// </summary>
+        public static string DetectPairBridgeHint {
+            get {
+                return ResourceManager.GetString("DetectPairBridgeHint", resourceCulture);
             }
         }
         
@@ -160,11 +187,56 @@ namespace WinHue_Core.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Scan aborted..
+        /// </summary>
+        public static string DetectPairBridgeScanAborted {
+            get {
+                return ResourceManager.GetString("DetectPairBridgeScanAborted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Scan complete..
+        /// </summary>
+        public static string DetectPairBridgeScanComplete {
+            get {
+                return ResourceManager.GetString("DetectPairBridgeScanComplete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Scan IP.
         /// </summary>
         public static string DetectPairBridgeScanIp {
             get {
                 return ResourceManager.GetString("DetectPairBridgeScanIp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Scan IP Complete..
+        /// </summary>
+        public static string DetectPairBridgeScanIPComplete {
+            get {
+                return ResourceManager.GetString("DetectPairBridgeScanIPComplete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Scan Portal Complete..
+        /// </summary>
+        public static string DetectPairBridgeScanPortalComplete {
+            get {
+                return ResourceManager.GetString("DetectPairBridgeScanPortalComplete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Scan UPNP Complete..
+        /// </summary>
+        public static string DetectPairBridgeScanUPNPComplete {
+            get {
+                return ResourceManager.GetString("DetectPairBridgeScanUPNPComplete", resourceCulture);
             }
         }
         
@@ -183,6 +255,15 @@ namespace WinHue_Core.Properties {
         public static string DetectPairBridgeUpnp {
             get {
                 return ResourceManager.GetString("DetectPairBridgeUpnp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Notice : V1 (Round) Bridge not supported. (Will Not list here).
+        /// </summary>
+        public static string DetectPairBridgeWarning {
+            get {
+                return ResourceManager.GetString("DetectPairBridgeWarning", resourceCulture);
             }
         }
         

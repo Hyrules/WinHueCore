@@ -5,8 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>WinHue_Core</RootNamespace>
     <UseWPF>true</UseWPF>
-    <AssemblyVersion>1.0.61.0</AssemblyVersion>
-    <FileVersion>1.0.61.0</FileVersion>
+    <AssemblyVersion>1.0.131.0</AssemblyVersion>
+    <FileVersion>1.0.131.0</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -14,22 +14,40 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Utils\AsyncRelayCommand.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Resources\bridgeAdd.png" />
+    <None Remove="Resources\close_delete.png" />
+    <None Remove="Resources\onebit_33.png" />
+    <None Remove="Resources\scan_bridge.png" />
+    <None Remove="Resources\scan_ip.png" />
+    <None Remove="Resources\scan_portal.png" />
+    <None Remove="Resources\scan_upnp2.png" />
     <None Remove="Resources\settings.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Resources\bridgeAdd.png" />
-    <Resource Include="Resources\settings.png" />
+    <None Include="MVVM\AsyncRelayCommand.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="AsyncAwaitBestPractices" Version="4.0.1" />
-    <PackageReference Include="AsyncAwaitBestPractices.MVVM" Version="4.0.1" />
+    <Resource Include="Resources\bridgeAdd.png" />
+    <Resource Include="Resources\close_delete.png" />
+    <Resource Include="Resources\onebit_33.png" />
+    <Resource Include="Resources\scan_bridge.png" />
+    <Resource Include="Resources\scan_upnp2.png" />
+    <Resource Include="Resources\settings.png" />
+    <Resource Include="Resources\scan_ip.png" />
+    <Resource Include="Resources\scan_portal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="DotNetProjects.Extended.Wpf.Toolkit" Version="4.6.78" />
     <PackageReference Include="log4net" Version="2.0.8" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
-    <PackageReference Include="RestSharp" Version="106.6.10" />
+    <PackageReference Include="RestSharp" Version="106.10.1" />
     <PackageReference Include="Rssdp" Version="4.0.2" />
     <PackageReference Include="System.Collections" Version="4.3.0" />
   </ItemGroup>

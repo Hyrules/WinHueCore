@@ -33,9 +33,16 @@
             <RibbonTab Header="{x:Static resx:Dictionary.RibbonCreators}">
                 
             </RibbonTab>
-            <DockPanel LastChildFill="False"/>
 
         </Ribbon>
-
+        <TabControl Margin="0,137,0,0" ItemsSource="{Binding ListBridges}">
+            <TabControl.ItemTemplate>
+                <DataTemplate DataType="Bridge">
+                    <ListView ItemsSource="{Binding ListHueObjects}">
+                        
+                    </ListView>
+                </DataTemplate>
+            </TabControl.ItemTemplate>
+        </TabControl>
     </Grid>
 </Window>

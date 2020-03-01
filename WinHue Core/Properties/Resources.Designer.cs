@@ -73,6 +73,56 @@ namespace WinHue_Core.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
+        internal static byte[] onebit_33 {
+            get {
+                object obj = ResourceManager.GetObject("onebit_33", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] scan_bridge {
+            get {
+                object obj = ResourceManager.GetObject("scan_bridge", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] scan_ip {
+            get {
+                object obj = ResourceManager.GetObject("scan_ip", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] scan_portal {
+            get {
+                object obj = ResourceManager.GetObject("scan_portal", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] scan_upnp2 {
+            get {
+                object obj = ResourceManager.GetObject("scan_upnp2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
         internal static byte[] settings {
             get {
                 object obj = ResourceManager.GetObject("settings", resourceCulture);

@@ -39,7 +39,7 @@ namespace WinHue_Core.Philips_Hue.Comms
             };
 
             request.AddHeader("Content-Type", "application/json");
-            IRestResponse response = await _client.ExecuteTaskAsync(request);
+            IRestResponse response = await _client.ExecuteAsync(request);
             return response;
         }
 
@@ -52,7 +52,7 @@ namespace WinHue_Core.Philips_Hue.Comms
             };
 
             request.AddHeader("Content-Type", "application/json");
-            IRestResponse<T> result = await _client.ExecuteTaskAsync<T>(request,token);
+            IRestResponse<T> result = await _client.ExecuteAsync<T>(request,token);
 
             return result;
         }
@@ -66,7 +66,7 @@ namespace WinHue_Core.Philips_Hue.Comms
             };
 
             request.AddHeader("Content-Type", "application/json");
-            IRestResponse result = await _client.ExecuteTaskAsync(request, token);
+            IRestResponse result = await _client.ExecuteAsync(request, token);
 
             return result;
         }

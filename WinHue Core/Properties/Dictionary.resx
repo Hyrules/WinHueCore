@@ -166,4 +166,31 @@
   <data name="DetectPairBridgeApiVersion" xml:space="preserve">
     <value>API Version</value>
   </data>
+  <data name="DetectPairBridgeWarning" xml:space="preserve">
+    <value>Notice : V1 (Round) Bridge not supported. (Will Not list here)</value>
+  </data>
+  <data name="DetectPairBridgeHint" xml:space="preserve">
+    <value>* Right-click on the bridge list for context menu</value>
+  </data>
+  <data name="DetectPairBridgeDPBHeader" xml:space="preserve">
+    <value>Detect and Pair</value>
+  </data>
+  <data name="DetectPairBridgeFindPortal" xml:space="preserve">
+    <value>Scan Portal</value>
+  </data>
+  <data name="DetectPairBridgeScanComplete" xml:space="preserve">
+    <value>Scan complete.</value>
+  </data>
+  <data name="DetectPairBridgeScanAborted" xml:space="preserve">
+    <value>Scan aborted.</value>
+  </data>
+  <data name="DetectPairBridgeScanIPComplete" xml:space="preserve">
+    <value>Scan IP Complete.</value>
+  </data>
+  <data name="DetectPairBridgeScanUPNPComplete" xml:space="preserve">
+    <value>Scan UPNP Complete.</value>
+  </data>
+  <data name="DetectPairBridgeScanPortalComplete" xml:space="preserve">
+    <value>Scan Portal Complete.</value>
+  </data>
 </root>

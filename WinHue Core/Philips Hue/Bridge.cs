@@ -6,6 +6,7 @@ using System.ComponentModel;
 using System.Runtime.Serialization;
 using System.Threading.Tasks;
 using System.Net;
+using System.Collections.ObjectModel;
 
 namespace WinHue_Core.Philips_Hue
 {
@@ -23,6 +24,7 @@ namespace WinHue_Core.Philips_Hue
         private string _starterKitId;
         private string _datastoreversion;
         private IPAddress _ipAddress;
+        private ObservableCollection<dynamic> _listHueObjects;
 
         public Bridge()
         {
@@ -49,5 +51,6 @@ namespace WinHue_Core.Philips_Hue
         public string StarterKitId { get => _starterKitId; set => SetProperty(ref _starterKitId,value); }
         [DataMember(Name = "datastoreversion")]
         public string DatastoreVersion { get => _datastoreversion; set => SetProperty(ref _datastoreversion,value); }
+        public ObservableCollection<dynamic> ListHueObjects { get => _listHueObjects; set => SetProperty(ref _listHueObjects,value); }
     }
 }

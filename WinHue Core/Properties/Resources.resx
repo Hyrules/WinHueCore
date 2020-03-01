@@ -121,6 +121,21 @@
   <data name="bridgeAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bridgeAdd.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="onebit_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\onebit_33.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="scan_bridge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\scan_bridge.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="scan_ip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\scan_ip.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="scan_portal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\scan_portal.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="scan_upnp2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scan_upnp2.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\settings.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>

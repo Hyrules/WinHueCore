@@ -11,14 +11,11 @@ namespace WinHue_Core.Logging
     public static class Logger
     {
         private static readonly ILog log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
-        private static ILoggerRepository repository = LogManager.GetRepository(Assembly.GetCallingAssembly());
 
         static Logger()
         {
-           
-            var fileInfo = new FileInfo(@"log4net.config");
-
-            log4net.Config.XmlConfigurator.Configure(repository, fileInfo);
+            var logRepository = LogManager.GetRepository(Assembly.GetEntryAssembly());
+            log4net.Config.XmlConfigurator.Configure(logRepository, new FileInfo(@"log4net.config"));
         }
 
         public static ILog Log => log;
